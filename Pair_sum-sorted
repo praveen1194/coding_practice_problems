@@ -1,5 +1,6 @@
 from typing import List
 
+#find the indecies of the pair in a sorted array whose sum is equal to the target
 def pair_sum_sorted(nums: List[int], target: int) -> List[int]:
     left, right = 0, len(nums)-1
 
