@@ -1,4 +1,4 @@
-from Linked_list_class import ListNode, createLinkedList, printLinkedList
+from Linked_list.Singly_linked_list_class import ListNode, createLinkedList, printLinkedList
 
 # remove the Kth last node from the end of a singly linked list
 def remove(head: ListNode, k: int) -> None:

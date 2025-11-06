@@ -1,4 +1,4 @@
-from Linked_list_class import ListNode, createLinkedList, printLinkedList
+from Linked_list.Singly_linked_list_class import ListNode, createLinkedList, printLinkedList
 
 # Reverse a singly linked list
 def reverse(head: ListNode) -> ListNode:
